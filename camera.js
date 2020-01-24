@@ -2,7 +2,7 @@ class Camera {
 
     constructor(x, y) {
         this.pos = {x, y};
-        this.speed = 10;
+        this.speed = 16;
     }
 
     moveUp() {
