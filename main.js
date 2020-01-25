@@ -28,6 +28,8 @@ var frameTime = 0, lastLoop = new Date(), thisLoop, thisFrameTime;
 var grid = new Grid(rows, cols);
 var camera = new Camera(xOff, yOff);
 
+generateTerrain();
+
 // transform matrix for isometric view
 startGame();
 
